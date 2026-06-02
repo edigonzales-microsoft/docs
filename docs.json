@@ -1,21 +1,18 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Microsoft Game Development Kit",
+  "name": "XBOX Game Development Kit",
   "theme": "maple",
   "favicon": "https://media.brand.dev/1cc7d407-f23a-4b9b-b989-9f91593a9123.png",
   "colors": {
-    "primary": "#04a4ec",
-    "light": "#bcbc04"
-  },
-  "fonts": {
-    "heading": { "family": "Segoe UI" },
-    "body": { "family": "Segoe UI" }
+    "primary": "#05ed1f",
+    "light": "#000000"
   },
   "navbar": {
     "primary": {
       "type": "github",
       "href": "https://github.com/microsoft/xbox-live-developer-tools"
-    }
+    },
+    "links": []
   },
   "navigation": {
     "tabs": [
@@ -39,7 +36,11 @@
               "gdk/packaging",
               "gdk/game-saves",
               "gdk/game-streaming",
-              "gdk/input"
+              "gdk/input",
+              "gdk/memory.mdx",
+              "gdk/localization.mdx",
+              "gdk/error-handling.mdx",
+              "gdk/text-to-speech.mdx"
             ]
           },
           {
@@ -49,7 +50,10 @@
               "gdk/audio",
               "gdk/storage",
               "gdk/networking",
-              "gdk/game-dvr"
+              "gdk/game-dvr",
+              "gdk/cross-gen.mdx",
+              "gdk/directstorage.mdx",
+              "gdk/dynamic-lighting.mdx"
             ]
           },
           {
@@ -60,7 +64,11 @@
               "services/achievements",
               "services/multiplayer",
               "services/social",
-              "services/cloud-storage"
+              "services/cloud-storage",
+              "services/game-chat.mdx",
+              "services/rich-presence.mdx",
+              "services/multiplayer-activity.mdx",
+              "services/people-system.mdx"
             ]
           },
           {
@@ -68,7 +76,14 @@
             "pages": [
               "playfab/overview",
               "playfab/player-sign-in",
-              "playfab/microsoft-store"
+              "playfab/microsoft-store",
+              "playfab/economy.mdx",
+              "playfab/multiplayer-lobby.mdx",
+              "playfab/leaderboards-stats.mdx",
+              "playfab/party-voice.mdx",
+              "playfab/analytics.mdx",
+              "playfab/party.mdx",
+              "playfab/insights-analytics.mdx"
             ]
           },
           {
@@ -78,7 +93,19 @@
               "publishing/partner-center",
               "publishing/certification",
               "publishing/commerce",
-              "publishing/dlc-add-ons"
+              "publishing/dlc-add-ons",
+              "publishing/age-ratings.mdx",
+              "publishing/store-listings.mdx",
+              "publishing/pricing-availability.mdx",
+              "publishing/pre-release-testing.mdx",
+              "publishing/cert-bypass.mdx",
+              "publishing/game-hubs.mdx",
+              "publishing/ratings.mdx",
+              "publishing/store-listing.mdx",
+              "publishing/pricing.mdx",
+              "publishing/pre-release.mdx",
+              "publishing/cert-bypass-program.mdx",
+              "publishing/franchise-hubs.mdx"
             ]
           },
           {
@@ -103,7 +130,10 @@
               "reference/xgamesave",
               "reference/xgamestreaming",
               "reference/xpackage",
-              "reference/xstore"
+              "reference/xstore",
+              "reference/xuser.mdx",
+              "reference/gameinput.mdx",
+              "reference/xuser-api.mdx"
             ]
           },
           {
@@ -117,5 +147,16 @@
         ]
       }
     ]
+  },
+  "description": "XBOX Game Development Kit",
+  "logo": {
+    "light": "/images/We_Are_Xbox_Email-Signature_200x200.png",
+    "dark": "/images/We_Are_Xbox_Email-Signature_200x200.png"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "decoration": "gradient"
   }
 }
