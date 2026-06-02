@@ -1,0 +1,140 @@
+{
+  "projectType": "sdk-library",
+  "projectName": "Microsoft Game Development Kit (GDK)",
+  "projectDescription": "The Microsoft Game Development Kit (GDK) is a comprehensive SDK and set of services for developing, publishing, and running games on Xbox consoles and Windows PC.",
+  "theme": "maple",
+  "primaryColor": "#04a4ec",
+  "lightColor": "#bcbc04",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "GDK Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "gdk/get-started",
+              "gdk/download-install"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "gdk/game-config",
+              "gdk/user-model",
+              "gdk/async-programming",
+              "gdk/packaging",
+              "gdk/game-saves",
+              "gdk/game-streaming",
+              "gdk/input"
+            ]
+          },
+          {
+            "group": "Xbox Console Features",
+            "pages": [
+              "gdk/console-overview",
+              "gdk/audio",
+              "gdk/storage",
+              "gdk/networking",
+              "gdk/game-dvr"
+            ]
+          },
+          {
+            "group": "Xbox Services",
+            "pages": [
+              "services/overview",
+              "services/player-data",
+              "services/achievements",
+              "services/multiplayer",
+              "services/social",
+              "services/cloud-storage"
+            ]
+          },
+          {
+            "group": "PlayFab Integration",
+            "pages": [
+              "playfab/overview",
+              "playfab/player-sign-in",
+              "playfab/microsoft-store"
+            ]
+          },
+          {
+            "group": "Publishing & Commerce",
+            "pages": [
+              "publishing/overview",
+              "publishing/partner-center",
+              "publishing/certification",
+              "publishing/commerce",
+              "publishing/dlc-add-ons"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "tools/overview",
+              "tools/pc-tools",
+              "tools/xbox-service-tools",
+              "tools/visual-studio"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "System APIs",
+            "pages": [
+              "reference/system-overview",
+              "reference/xgameruntime",
+              "reference/xgamesave",
+              "reference/xgamestreaming",
+              "reference/xpackage",
+              "reference/xstore"
+            ]
+          },
+          {
+            "group": "Xbox Services API",
+            "pages": [
+              "reference/xsapi-overview",
+              "reference/social-manager",
+              "reference/microsoftgameconfig-schema"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Cross-platform game development for Xbox Series X|S, Xbox One, and Windows PC",
+    "Xbox Services API (XSAPI) for achievements, leaderboards, multiplayer, and social features",
+    "MicrosoftGame.config manifest for game identity and packaging configuration",
+    "Intelligent Delivery and Streaming Install for optimized package distribution",
+    "Xbox Game Streaming and Remote Play support with Cloud Aware APIs",
+    "PlayFab integration for backend services, monetization, and multiplayer networking",
+    "Multiplayer Session Directory (MPSD), SmartMatch matchmaking, and Game Chat 2",
+    "Connected Storage and Title Storage for cloud game saves and assets",
+    "Partner Center integration for Microsoft Store publishing and certification",
+    "Commerce APIs (XStore) for in-app purchases, DLC, bundles, and consumables",
+    "PIX performance profiling for DirectX 12 on PC and Xbox",
+    "Xbox Service development tools (sandbox management, data reset, trace analysis)"
+  ],
+  "publicApiSurface": [
+    "XGameRuntimeInitialize() / XGameRuntimeUninitialize()",
+    "XGameSave APIs (XGameSaveCreateContainer, XGameSaveSubmitUpdate, etc.)",
+    "XStore APIs (XStoreQueryAssociatedProductsAsync, XStorePurchaseProductAsync, etc.)",
+    "XPackage APIs (XPackageMount, XPackageEnumerateChunkAvailability, etc.)",
+    "XGameStreaming APIs (XGameStreamingIsStreaming, XGameStreamingGetTouchBundleVersion, etc.)",
+    "XGameUI APIs (XGameUISShowMessageDialogAsync, etc.)",
+    "XAppCapture APIs (XAppCaptureRecordDiagnosticCapture, etc.)",
+    "XMem APIs (XMemAlloc / XMemFree)",
+    "XSAPI C APIs: XblSocialManagerAddLocalUser, XblSocialManagerDoWork, XblSocialManagerCreateSocialUserGroupFromFilters",
+    "XblPresenceFilter / XblRelationshipFilter enumerations",
+    "MicrosoftGame.config XML schema elements (Identity, ShellVisuals, ExecutableList, StoreId, etc.)",
+    "makepkg.exe / makepkg2.exe for packaging",
+    "wdapp.exe (PC) and xbapp.exe (console) for app registration and management",
+    "XblConfig.exe, XblConnectedStorage.exe, XblPlayerDataReset.exe, XblTraceAnalyzer.exe (Xbox service tools)"
+  ]
+}

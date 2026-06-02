@@ -1,0 +1,121 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Microsoft Game Development Kit",
+  "theme": "maple",
+  "favicon": "https://media.brand.dev/1cc7d407-f23a-4b9b-b989-9f91593a9123.png",
+  "colors": {
+    "primary": "#04a4ec",
+    "light": "#bcbc04"
+  },
+  "fonts": {
+    "heading": { "family": "Segoe UI" },
+    "body": { "family": "Segoe UI" }
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/microsoft/xbox-live-developer-tools"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "GDK Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "gdk/get-started",
+              "gdk/download-install"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "gdk/game-config",
+              "gdk/user-model",
+              "gdk/async-programming",
+              "gdk/packaging",
+              "gdk/game-saves",
+              "gdk/game-streaming",
+              "gdk/input"
+            ]
+          },
+          {
+            "group": "Xbox Console Features",
+            "pages": [
+              "gdk/console-overview",
+              "gdk/audio",
+              "gdk/storage",
+              "gdk/networking",
+              "gdk/game-dvr"
+            ]
+          },
+          {
+            "group": "Xbox Services",
+            "pages": [
+              "services/overview",
+              "services/player-data",
+              "services/achievements",
+              "services/multiplayer",
+              "services/social",
+              "services/cloud-storage"
+            ]
+          },
+          {
+            "group": "PlayFab Integration",
+            "pages": [
+              "playfab/overview",
+              "playfab/player-sign-in",
+              "playfab/microsoft-store"
+            ]
+          },
+          {
+            "group": "Publishing & Commerce",
+            "pages": [
+              "publishing/overview",
+              "publishing/partner-center",
+              "publishing/certification",
+              "publishing/commerce",
+              "publishing/dlc-add-ons"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "tools/overview",
+              "tools/pc-tools",
+              "tools/xbox-service-tools",
+              "tools/visual-studio"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "System APIs",
+            "pages": [
+              "reference/system-overview",
+              "reference/xgameruntime",
+              "reference/xgamesave",
+              "reference/xgamestreaming",
+              "reference/xpackage",
+              "reference/xstore"
+            ]
+          },
+          {
+            "group": "Xbox Services API",
+            "pages": [
+              "reference/xsapi-overview",
+              "reference/social-manager",
+              "reference/microsoftgameconfig-schema"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
