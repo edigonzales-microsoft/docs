@@ -11,12 +11,12 @@
   "navbar": {
     "primary": {
       "type": "website",
-      "href": "https://developer.microsoft.com/games"
+      "href": "https://github.com/edigonzales-microsoft/docs"
     },
     "links": [
       {
         "href": "https://github.com/edigonzales-microsoft/docs",
-        "label": "Collaborate with us on GitHub!"
+        "label": "Collaborate with us in GitHub"
       }
     ]
   },
