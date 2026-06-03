@@ -126,7 +126,13 @@
               "reference/xpackage",
               "reference/xstore",
               "reference/xuser",
-              "reference/gameinput"
+              "reference/gameinput",
+              "reference/networking",
+              "reference/chat",
+              "reference/lighting",
+              "reference/tools-api",
+              "reference/wdp-rest",
+              "reference/error-codes"
             ]
           },
           {
@@ -165,5 +171,8 @@
       "family": "Albert Sans",
       "weight": 400
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   }
 }
