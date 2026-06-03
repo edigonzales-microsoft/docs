@@ -4,9 +4,9 @@
   "theme": "palm",
   "favicon": "https://media.brand.dev/1cc7d407-f23a-4b9b-b989-9f91593a9123.png",
   "colors": {
-    "primary": "#007DB5",
-    "light": "#008746",
-    "dark": "#008746"
+    "primary": "#107C10",
+    "light": "#10B25C",
+    "dark": "#107C10"
   },
   "navbar": {
     "primary": {
@@ -158,8 +158,8 @@
   "background": {
     "decoration": "windows",
     "color": {
-      "light": "#484E58",
-      "dark": "#484E58"
+      "light": "#FFFFFF",
+      "dark": "#1A1B1E"
     }
   },
   "fonts": {
