@@ -179,5 +179,15 @@
   },
   "styling": {
     "eyebrows": "breadcrumbs"
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://developer.microsoft.com/en-us/games",
+      "youtube": "https://www.youtube.com/msftgamedev",
+      "github": "https://github.com/microsoft/Xbox-GDK-Samples"
+    }
+  },
+  "metadata": {
+    "timestamp": true
   }
 }
