@@ -10,7 +10,7 @@
   },
   "navbar": {
     "primary": {
-      "type": "XBOX Game Dev",
+      "type": "website",
       "href": "https://developer.microsoft.com/games"
     },
     "links": [
