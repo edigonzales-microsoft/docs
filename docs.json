@@ -5,8 +5,8 @@
   "favicon": "https://media.brand.dev/1cc7d407-f23a-4b9b-b989-9f91593a9123.png",
   "colors": {
     "primary": "#007DB5",
-    "light": "#6B7584",
-    "dark": "#484E58"
+    "light": "#008746",
+    "dark": "#008746"
   },
   "navbar": {
     "primary": {
@@ -158,18 +158,20 @@
     "default": "dark"
   },
   "background": {
-    "decoration": "gradient",
+    "decoration": "windows",
     "color": {
-      "light": "#008746",
-      "dark": "#008746"
+      "light": "#484E58",
+      "dark": "#484E58"
     }
   },
   "fonts": {
     "heading": {
-      "family": "Rubik"
+      "family": "Rubik",
+      "weight": 700
     },
     "body": {
-      "family": "Albert Sans"
+      "family": "Albert Sans",
+      "weight": 400
     }
   }
 }
