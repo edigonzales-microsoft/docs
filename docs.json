@@ -13,7 +13,12 @@
       "type": "github",
       "href": "https://github.com/microsoft/xbox-live-developer-tools"
     },
-    "links": []
+    "links": [
+      {
+        "href": "https://github.com/edigonzales-microsoft/docs",
+        "label": "Collaborate with us on GitHub!"
+      }
+    ]
   },
   "navigation": {
     "tabs": [
