@@ -9,10 +9,6 @@
     "dark": "#107C10"
   },
   "navbar": {
-    "primary": {
-      "type": "website",
-      "href": "https://github.com/edigonzales-microsoft/docs"
-    },
     "links": [
       {
         "href": "https://github.com/edigonzales-microsoft/docs",
