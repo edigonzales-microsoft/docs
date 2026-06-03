@@ -1,12 +1,12 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "XBOX Game Development Kit",
-  "theme": "sequoia",
+  "theme": "palm",
   "favicon": "https://media.brand.dev/1cc7d407-f23a-4b9b-b989-9f91593a9123.png",
   "colors": {
-    "primary": "#008746",
-    "light": "#008746",
-    "dark": "#008746"
+    "primary": "#007DB5",
+    "light": "#6B7584",
+    "dark": "#484E58"
   },
   "navbar": {
     "primary": {
@@ -160,8 +160,8 @@
   "background": {
     "decoration": "gradient",
     "color": {
-      "light": "#6B7584",
-      "dark": "#484E58"
+      "light": "#008746",
+      "dark": "#008746"
     }
   },
   "fonts": {
