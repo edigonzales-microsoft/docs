@@ -18,18 +18,19 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "GDK Documentation",
+        "tab": "Xbox Developer Documentation",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
+              "onboarding",
               "introduction",
               "gdk/get-started",
               "gdk/download-install"
             ]
           },
           {
-            "group": "Core Features",
+            "group": "Build and Develop (Core Features)",
             "pages": [
               "gdk/game-config",
               "gdk/user-model",
@@ -38,10 +39,10 @@
               "gdk/game-saves",
               "gdk/game-streaming",
               "gdk/input",
-              "gdk/memory.mdx",
-              "gdk/localization.mdx",
-              "gdk/error-handling.mdx",
-              "gdk/text-to-speech.mdx"
+              "gdk/memory",
+              "gdk/localization",
+              "gdk/error-handling",
+              "gdk/text-to-speech"
             ]
           },
           {
@@ -52,9 +53,9 @@
               "gdk/storage",
               "gdk/networking",
               "gdk/game-dvr",
-              "gdk/cross-gen.mdx",
-              "gdk/directstorage.mdx",
-              "gdk/dynamic-lighting.mdx"
+              "gdk/cross-gen",
+              "gdk/directstorage",
+              "gdk/dynamic-lighting"
             ]
           },
           {
@@ -66,25 +67,32 @@
               "services/multiplayer",
               "services/social",
               "services/cloud-storage",
-              "services/game-chat.mdx",
-              "services/rich-presence.mdx",
-              "services/multiplayer-activity.mdx",
-              "services/people-system.mdx"
+              "services/game-chat",
+              "services/rich-presence",
+              "services/multiplayer-activity",
+              "services/people-system"
             ]
           },
           {
-            "group": "PlayFab Integration",
+            "group": "Tools",
+            "pages": [
+              "tools/overview",
+              "tools/pc-tools",
+              "tools/xbox-service-tools",
+              "tools/visual-studio"
+            ]
+          },
+          {
+            "group": "PlayFab",
             "pages": [
               "playfab/overview",
               "playfab/player-sign-in",
               "playfab/microsoft-store",
-              "playfab/economy.mdx",
-              "playfab/multiplayer-lobby.mdx",
-              "playfab/leaderboards-stats.mdx",
-              "playfab/party-voice.mdx",
-              "playfab/analytics.mdx",
-              "playfab/party.mdx",
-              "playfab/insights-analytics.mdx"
+              "playfab/economy",
+              "playfab/multiplayer-lobby",
+              "playfab/leaderboards-stats",
+              "playfab/party-voice",
+              "playfab/analytics"
             ]
           },
           {
@@ -95,27 +103,12 @@
               "publishing/certification",
               "publishing/commerce",
               "publishing/dlc-add-ons",
-              "publishing/age-ratings.mdx",
-              "publishing/store-listings.mdx",
-              "publishing/pricing-availability.mdx",
-              "publishing/pre-release-testing.mdx",
-              "publishing/cert-bypass.mdx",
-              "publishing/game-hubs.mdx",
-              "publishing/ratings.mdx",
-              "publishing/store-listing.mdx",
-              "publishing/pricing.mdx",
-              "publishing/pre-release.mdx",
-              "publishing/cert-bypass-program.mdx",
-              "publishing/franchise-hubs.mdx"
-            ]
-          },
-          {
-            "group": "Tools",
-            "pages": [
-              "tools/overview",
-              "tools/pc-tools",
-              "tools/xbox-service-tools",
-              "tools/visual-studio"
+              "publishing/age-ratings",
+              "publishing/store-listings",
+              "publishing/pricing-availability",
+              "publishing/pre-release-testing",
+              "publishing/cert-bypass",
+              "publishing/game-hubs"
             ]
           }
         ]
@@ -132,9 +125,8 @@
               "reference/xgamestreaming",
               "reference/xpackage",
               "reference/xstore",
-              "reference/xuser.mdx",
-              "reference/gameinput.mdx",
-              "reference/xuser-api.mdx"
+              "reference/xuser",
+              "reference/gameinput"
             ]
           },
           {

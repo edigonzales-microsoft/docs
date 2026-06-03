@@ -1,5 +1,5 @@
 ---
-title: "Package your Microsoft GDK game for Xbox and Windows PC"
+title: "Package your XBOX GDK game for XBOX and Windows PC"
 sidebarTitle: "Packaging"
 description: "Learn how to create GDK packages for Xbox and PC using makepkg, Intelligent Delivery, MSIXVC2, and package encryption for Microsoft Store submission."
 ---
@@ -12,14 +12,17 @@ Packaging is the process of bundling your game's executables, assets, and manife
   <Card title="Streaming Install" icon="download" href="/reference/xpackage">
     Players can start your game as soon as the first required chunk is installed. Additional content continues downloading in the background while the player is already in the game.
   </Card>
+
   <Card title="Intelligent Delivery" icon="tags" href="/reference/xpackage">
     Tag content chunks as language-specific or hardware-specific (e.g., 4K textures for Xbox One X and Xbox Series consoles) so that players only download what their system actually needs.
   </Card>
+
   <Card title="Differential Updates" icon="arrows-rotate" href="/reference/xpackage">
     Only the changed portions of a package need to be downloaded when you publish an update, significantly reducing update sizes for players and CDN bandwidth costs for you.
   </Card>
+
   <Card title="Redistributable Support (PC)" icon="puzzle-piece" href="/publishing/overview">
-    PC packages can declare dependencies on common framework packages (DirectX, Visual C++ runtimes) and include custom installer actions that run with elevated privileges at install time.
+    PC packages can declare dependencies on common framework packages (DirectX, Visual C\+\+ runtimes) and include custom installer actions that run with elevated privileges at install time.
   </Card>
 </CardGroup>
 
@@ -38,12 +41,12 @@ Packaging is the process of bundling your game's executables, assets, and manife
     ```bash
     # Xbox console (XVC format)
     makepkg pack /f layout.xml /d .\gamefiles\ /pd .\output\
-
+    
     # PC (MSIXVC format)
     makepkg pack /f layout.xml /d .\gamefiles\ /pd .\output\ /pc
     ```
 
-    For **PC with the new MSIXVC2 format** (April 2026 GDK+), use `makepkg2.exe`:
+    For **PC with the new MSIXVC2 format** (April 2026 GDK\+), use `makepkg2.exe`:
 
     ```bash
     makepkg2 pack /f layout.xml /d .\gamefiles\ /pd .\output\
@@ -57,12 +60,12 @@ Packaging is the process of bundling your game's executables, assets, and manife
   </Step>
 </Steps>
 
-## MSIXVC2 for PC (April 2026 GDK+)
+## MSIXVC2 for PC (April 2026 GDK\+)
 
 Starting with the April 2026 GDK, a next-generation PC packaging format called **MSIXVC2** is available as a preview. It delivers significant improvements over the original MSIXVC format:
 
 | Metric | Improvement |
-|---|---|
+| --- | --- |
 | Content update size | 64–94% smaller |
 | Packaging speed | Up to 7.6× faster |
 | Workflow | Combined pack and upload in a single command |
